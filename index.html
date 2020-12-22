@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bde3367057.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+ <div class="nvbr"></div>
+   
+    <div class="navbarupper"><a href="#" class="blc"><h1 class="logo"><span class="sell">Sell</span><span class="jee">Jee</span></h1></a>  </div>
+    <div class="searchbar1"><div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 col-sm-8 offset-sm-2 col-12">
+         
+          <div class="input-group" id="adv-search">
+            <input type="text" class="form-control form-control-search" placeholder="Search for snippets" />
+            <div class="input-group-btn">
+              <div class="btn-group" role="group">
+                <div class="dropdown dropdown-lg drpdwn">
+                  <button type="button" class="bgdrp btn dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Catagories
+                  </button>  
+                  <div class="dropdown-menu dropdown-menu-right" role="menu">
+                    <form>
+                      <div class="form-group">
+                        <label for="category" class="text-dark">Category</label>
+                        <select class="textbox1 form-control" id="category">
+                          <option>All Snippets</option>
+                          <option>Featured</option>
+                          <option>Most Popular</option>
+                          <option>Most Commented</option>
+                          <option>Most Liked</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="designer">Designer</label>
+                        <input type="text" class="textbox1 form-control" id="designer" placeholder="Enter designer name">
+                      </div>
+                      <div class="form-group">
+                        <label for="contain_word">Contains Words</label>
+                        <input type="text" class="textbox1 form-control" id="contain_word" placeholder="Enter contain words">
+                      </div>
+                      <div class="form-group">
+                        <label>Color</label><br>
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description"><a href="#" class="clrblck">Red</a></span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description"><a href="#"  class="clrblck">Blue</a></span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description"><a href="#"  class="clrblck">All</a></span>
+                        </label>
+                      </div>
+                    
+                      <hr>
+                      <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                      </div>
+                    </form>   
+                    <i class="fas fa-cart-plus"></i>                  
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary abc"><span class="fa fa-search" aria-hidden="true"></span></button>
+              </div>
+           
+          </div>
+        </div>
+      </div> <a href="#" class="blc"><i class="cart1 fas fa-cart-plus"><span class="cartext">Cart</span></i></a><a href="#" class="blc"><i class="fav1 fas fa-heart"><span class="favtxt">Wishlist</span></i></a><a href="#" class="useracc blc"><i class="useracc1 fas fa-user"><span class="usertxt">MyAccount</span></i></a></div>
+    </div></div>    
+    <!--table-->
+    
+    <div class="category blcbrdr">
+        <table>
+      <tr>
+        <th class="aaa"><button class="greenbg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Shop by Category
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div></th>
+        <th class="sps10px"><a href="#" class="decnn"><span class="blctxt">New Products</span></a></th>
+        <th class="sps10px"><a href="#" class="decnn"><span class="blctxt">Popular products</span></a></th>
+        <th class="sps10px"><a href="#" class="decnn"><span class="blctxt">Best Sellers</span></a></th>
+        <th class="sps10px"><a href="#" class="decnn"><span class="blctxt">Daily Deals</span></a></th>
+        <th class="sps10px"><a href="#" class="decnn"><span class="blctxt">Popular products</span></a></th>
+        
+            </tr></table>
+    </div>
+    
+  <!--image slide -->
+   <div class="spacesld">
+    <div id="carouselExampleControls" class="carousel slide sld1" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="wp5129072.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="wp5129072.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="wp5129072.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   
+   
+   
+   <!--daily deals and see more-->
+   <div class="dldsm">
+        <table>
+      <tr>
+        <th class="dailydeals"><a href="#" class="decnn"><span class="dld">Daily Deals</span></a></th>
+        <th class="seemore"><a href="#" class="decnn"><span class="sm">See more</span></a></th>
+        
+        
+            </tr></table>
+    </div>
+    
+    </div>
+    <!--products-->
+    <div class="sps10px1"></div>
+    
+  
+
+
+
+
+<div class="container-fluid">
+    
+    <div class="row">
+        <div class="col-md-2 col-sm-1 spselm1">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                   
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+               
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Popular-->
+    <div class="dldsm1">
+        <table>
+      <tr>
+        <th class="dailydeals"><a href="#" class="decnn"><span class="dld">Popular Products</span></a></th>
+        <th class="seemore"><a href="#" class="decnn"><span class="sm">See more</span></a></th>
+        
+        
+            </tr></table>
+    </div>
+    
+    <!--products-->
+    <div class="sps10px1"></div>
+    
+  
+
+
+
+
+<div class="container-fluid">
+    
+    <div class="row">
+        <div class="col-md-2 col-sm-1 spselm1">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                   
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+               
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 spselm">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$5.00
+                        <span>$10.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sps10px1"></div>
+
+
+<!--fashioni-->
+ <div class="dldsm1">
+        <table>
+      <tr>
+        <th class="dailydeals"><a href="#" class="decnn"><span class="dld">Fashion</span></a></th>
+        <th class="seemore"><a href="#" class="decnn"><span class="sm">See more</span></a></th>
+        
+        
+            </tr></table>
+    </div>
+<!--fashion products-->
+<div class="sps10px1"></div><div class="row">
+<div class="container-fluid">
+     
+    
+    <div class="row">
+       <div class="col-md-4 col-sm-1 spselm1">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="pnl4">
+            <div class="row">
+            
+            
+            <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> 
+           
+            
+            </div>
+            <div class="sps10px1"></div>
+            <div class="row">
+            
+            
+            <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> 
+           
+            
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div></div>
+<div class="sps10px1"></div>
+       
+       <!--sports and outdoor-->
+<div class="dldsm1">
+        <table>
+      <tr>
+        <th class="dailydeals"><a href="#" class="decnn"><span class="dld">Sports and Outdoors</span></a></th>
+        <th class="seemore"><a href="#" class="decnn"><span class="sm">See more ></span></a></th>
+        
+        
+            </tr></table>
+    </div>
+       <div class="sps10px1"></div>
+       <!--sports and outdoor products-->
+<div class="sps10px1"></div><div class="row">
+<div class="container-fluid">
+     
+    
+    <div class="row">
+       <div class="col-md-4 col-sm-1 spselm1">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="pnl4">
+            <div class="row">
+            
+            
+            <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> 
+           
+            
+            </div>
+            <div class="sps10px1"></div>
+            <div class="row">
+            
+            
+            <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> <div class="col-md-3 col-sm-1 ">
+            <div class="product-grid spselm2">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="mens-black-plain-t-shirt-500x500.jpg">
+                        
+                    </a>
+                    
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div> 
+           
+            
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div></div>
+<div class="sps10px2"></div>  
+       
+            
+                 
+                      
+    <!--footer-->
+       <div class="footerbg"></div>     
+       <div class="row ">
+           <div class="htb">
+              <div class="sps10px1"></div>
+              <table class="htbtbl">
+               <ul class="ulstl">
+                  
+                   <li ><a href="#" class="htbul1" >How to Buy</a></li>
+                   <li><a href="#"  class="htbul">Create an Account</a></li>
+                   <li ><a href="#"  class="htbul">Making Payments</a></li>
+                   <li ><a href="#"  class="htbul">Delivery Options</a></li>
+                   <li ><a href="#"  class="htbul">Buyer Protection</a></li>
+                   <li ><a href="#"  class="htbul">New User Guide</a></li>
+                   
+               </ul></table>
+           </div><div class="htb1"><div class="sps10px1"></div><table class="htbtbl">
+               <ul class="ulstl">
+                   <li  ><a href="#" class="htbul1">Customer Service</a></li>
+                   <li ><a href="#"  class="htbul">Terms</a></li>
+                   <li ><a href="#"  class="htbul">Orders and Returns</a></li>
+                   <li ><a href="#"  class="htbul">Contact us</a></li>
+                   <li ><a href="#"  class="htbul">Organization and Technical Support</a></li>
+                   
+               </ul></table>
+           </div><div class="htb2"><div class="sps10px1"></div><table class="htbtbl">
+               <ul class="ulstl">
+                   <li ><a href="#" class="htbul1" >About</a></li>
+                   <li ><a href="#" class="htbul">Company Info</a></li>
+                   <li ><a href="#" class="htbul">News</a></li>
+                   <li ><a href="#" class="htbul">Investors</a></li>
+                   <li ><a href="#" class="htbul">Careers</a></li>
+                   <li ><a href="#" class="htbul">Adveretise with us</a></li>
+                   
+               </ul></table>
+           </div><div class="htb3"><div class="sps10px1"></div><table class="htbtbl">
+               <ul class="ulstl">
+                   <li ><a href="#" class="htbul1" >Stay Connected</a></li>
+                   <li ><div class="row"><a href="#"><i class="fab fa-facebook fblg"></i></a><a href="#"><i class="fab fa-instagram-square fblg1"></i></a> <a href="#"><i class="fab fa-google-plus-square fblg1"></i></a><a href="#"><i class="fab fa-linkedin fblg2"></i></a></div></li>
+                   <li></li>
+                   <li ><a href="#" class="htbul">Copyright 1995-2020 SellJee</a></li>
+                   <li ><a href="#" class="htbul">All Right Reserved</a></li>
+                   <li ><a href="#" class="htbul">User Agreement, Privacy.Cookies</a></li>
+                   
+                   
+               </ul></table>
+           </div>
+       </div>
+        <!--script-->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
